@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(191, 224, 224);
+    font-family: 'Lucida Sans';
+    display: flex;
+    justify-content: center;
+}
+
+.user-item {
+        background-color: #ffffff;
+        border: 3px solid #080808;
+        padding: 10px;
+        margin-top: 15%;
+        border-radius: 10px;
+
+}
