@@ -14,7 +14,7 @@ const Details = () => {
 
   if (!user) {
     return (
-      <div>
+      <div class="user-item">
         <h2>Usuário não encontrado!</h2>
         <Link to="/">Voltar à página inicial</Link>
       </div>
@@ -22,7 +22,7 @@ const Details = () => {
   }
 
   return (
-    <div>
+    <div class='user-item'>
       <h2>{user.name}</h2>
       <p>{user.description}</p>
       <img src={user.imageUrl} alt={user.name} />
